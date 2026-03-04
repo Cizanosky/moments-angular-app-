@@ -14,10 +14,10 @@ The project was built to practice and apply core Angular concepts, including com
 
 The application allows users to create and display posts ("moments") containing:
 
-- An image
-- A title
-- A description
-- Comments
+- An image  
+- A title  
+- A description  
+- Comments  
 
 The system simulates a social media feed interface where moments are displayed in a structured and interactive layout.
 
@@ -27,40 +27,38 @@ Although the project is not connected to a real authentication system or product
 
 ## Key Angular Concepts Applied
 
-- Component-based architecture
-- Parent-to-child and child-to-parent communication (@Input / @Output)
-- Event binding
-- Property binding
-- Conditional rendering
-- Dynamic lists with *ngFor
-- Form handling
-- HTTP communication (if applicable)
-- Service layer for data management
+- Component-based architecture  
+- Parent-to-child and child-to-parent communication (@Input / @Output)  
+- Event binding  
+- Property binding  
+- Conditional rendering  
+- Dynamic lists with *ngFor  
+- Form handling  
+- Service layer for data management  
 
 ---
 
 ## Features
 
-- Create new moments
-- Display moments in a feed-style layout
-- Add comments to posts
-- Image rendering
-- Structured UI components
-- Responsive layout (if applicable)
+- Create new moments  
+- Display moments in a feed-style layout  
+- Add comments to posts  
+- Image rendering  
+- Structured UI components  
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-- Angular
-- TypeScript
-- HTML
-- CSS
+- Angular  
+- TypeScript  
+- HTML  
+- CSS  
 
 ### Tools
-- Visual Studio Code
-- Git
+- Visual Studio Code  
+- Git  
 
 ---
 
@@ -68,13 +66,27 @@ Although the project is not connected to a real authentication system or product
 
 This project was developed to strengthen knowledge in:
 
-- Angular component communication patterns
-- Frontend architecture organization
-- State handling in SPA applications
-- UI structuring and reusable components
+- Angular component communication patterns  
+- Frontend architecture organization  
+- State handling in SPA applications  
+- UI structuring and reusable components  
 
 ---
 
 ## Running the Project
 
-1. Clone the repository:
+Clone the repository
+
+git clone https://github.com/Cizanosky/moments-angular-app.git
+
+Install dependencies
+
+npm install
+
+Run the project
+
+ng serve
+
+Open in your browser
+
+http://localhost:4200
